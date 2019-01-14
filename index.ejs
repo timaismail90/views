@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <% include('header.ejs') %>
+  </head>
+  <body>
+    <% include('body.ejs') %>
+  </body>
+</html>
+
+<ul>
+  <% users.forEach(function(user){ %>
+    <%= user.name %>
+  <% })%>
+</ul>
+
